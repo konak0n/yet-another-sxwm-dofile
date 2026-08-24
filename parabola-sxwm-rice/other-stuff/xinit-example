@@ -1,0 +1,6 @@
+gnunet-arm -s >/dev/null 2>&1 &
+xcompmgr -f -D 5 &
+wal -i ~/parabola-sxwm-rice/wallpaper/Natural.jpg
+xwallpaper --zoom ~/parabola-sxwm-rice/wallpaper/Natural.jpg
+sxbar &
+exec sxwm

@@ -1,0 +1,11 @@
+if [ -f "$HOME/.cache/wal/sequences" ]; then
+     	cat "$HOME/.cache/wal/sequences"
+fi
+
+if [ -z "$DISPLAY" && [ "$(tty)" = "/dev/tty1" ]; then
+   exec startx
+fi
+
+#alias
+alias emacs='emacs -nw'
+alias mdo='doas'
